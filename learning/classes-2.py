@@ -20,5 +20,5 @@ def main():
   c2 = anotherClass()
   c2.foo1()
   
-if __name__ == "__main__":
+if __name__ == "__main__": # When the Python interpreter reads a source file, it executes all of the code found in it
   main()
