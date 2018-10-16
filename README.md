@@ -1,4 +1,4 @@
 # python-playground
 
 
-![alt text](http://url/to/img.png)
+![Python](https://upload.wikimedia.org/wikipedia/commons/0/0a/Python.svg)
