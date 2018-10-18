@@ -4,11 +4,10 @@ Car = namedtuple('car', 'color mileage')
 
 # Our new "Car" class works as expected:
 my_car = Car('Misano Red Pearlescent', 14000)
-print(my_car.color) #'Misano Red Pearlescent'
-print(my_car.mileage) # 14000
 
-# We get a nice string repr for free:
-my_car # car(color='Misano Red Pearlescent', mileage=14000)
+# print the component of the Class
+print(my_car.color, my_car.mileage) # Misano Red Pearlescent, 14000
+print(my_car) # car(color='Misano Red Pearlescent', mileage=14000)
 
 # Like tuples, namedtuples are immutable:
-# my_car.color = 'blue' # !! Exception has occurred: exceptions.AttributeError
+# my_car.color = 'blue' # !Exception has occurred: exceptions.AttributeError
