@@ -1,7 +1,7 @@
 # tqdm, progress bar: te quiero demasiado
 # Instantly make your loops show a smart progress meter - just wrap any iterable with tqdm(iterable), and you're done!
 
-# https://tqdm.github.io/
+# https://github.com/tqdm/tqdm
 # pip install twdm
 
 ######################################################
