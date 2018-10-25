@@ -9,6 +9,15 @@ str.split('a,b,c', ',') # ['a', 'b', 'c']
 # Splitting Without Parameters
 'test me here'.split() # ['test', 'me', 'here']
 
+
+# example 2 
+
+Mystring = 'Leo was here'
+splitted_string = Mystring.split() # Splitting String By Whitespace
+print('Splitted String is : ', splitted_string) # ('Splitted String is : ', ['Leo', 'was', 'here'])
+
+
+
 #############################################################################################
 # Concatenating and Joining Strings
 ## REMEMBER: strings are immutable!
