@@ -6,7 +6,7 @@
 
 ### TOPICS
 
-[Learning PAth](https://github.com/leolanese/python-playground/tree/master/learning)
-[Library](https://github.com/leolanese/python-playground/tree/master/learning)
-[Tips](https://github.com/leolanese/python-playground/tree/master/tips)
+[Learning PAth](https://github.com/leolanese/python-playground/tree/master/learning)<br/>
+[Library](https://github.com/leolanese/python-playground/tree/master/learning)<br/>
+[Tips](https://github.com/leolanese/python-playground/tree/master/tips)<br/>
 
