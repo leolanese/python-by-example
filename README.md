@@ -20,7 +20,7 @@
 <a href="http://www.leolanese.com" target="_blank">http://www.leolanese.com</a>
 </h5>
 <h5>Twitter:
-<a href="http://twitter.com/LeoLaneseltd" target="_blank">twitter.com/LeoLaneseltd</a>
+<a href="http://twitter.com/LeoLanese" target="_blank">twitter.com/LeoLanese</a>
 </h5>
 <h5>Questions / Suggestion / Recommendation ?
 <a href="mail:to">developer@leolanese.com</a>
