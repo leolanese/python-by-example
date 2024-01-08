@@ -11,9 +11,11 @@
 [Tips](https://github.com/leolanese/python-playground/tree/master/tips)<br/>
 
 
-### Python Playgorund testings
+### Collection Python Playgorund
 
-[Trinket Python playground](https://trinket.io/python)
+[Trinket playground](https://trinket.io/python)
+[Programiz playground](https://programiz.pro/ide/python)
+[Online-Python](https://www.online-python.com/)
 
 ---
 
