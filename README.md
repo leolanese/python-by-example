@@ -13,9 +13,9 @@
 
 ### Collection Python Playgorund
 
-[Trinket playground](https://trinket.io/python)
-[Programiz playground](https://programiz.pro/ide/python)
-[Online-Python](https://www.online-python.com/)
+[Trinket playground](https://trinket.io/python)<br/>
+[Programiz playground](https://programiz.pro/ide/python)<br/>
+[Online-Python](https://www.online-python.com/)<br/>
 
 ---
 
