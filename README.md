@@ -13,7 +13,7 @@
 
 ### Python Playgorund testings
 
-![Python playground](https://trinket.io/python)
+[Python playground](https://trinket.io/python)
 
 ---
 
