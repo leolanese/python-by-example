@@ -13,7 +13,8 @@
 
 ### Python Playgorund testings
 
-(https://trinket.io/python)[https://trinket.io/python]
+![Python playground](https://trinket.io/python)
+
 ---
 
 <h5> { 'Leo Lanese',<br>
