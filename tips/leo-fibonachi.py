@@ -7,7 +7,7 @@ def fibL(n):
             print b
             a = b
             b = c
-# x=input('which fibonnaci do you want?')
+# x = int(raw_input('which fibonacci do you want? '))
 # fibL(x)  # 15 -> 610
 
 
@@ -19,5 +19,5 @@ def fibR(n):
       return 0            
    else:                      
       return fibR(n-1) + fibR(n-2)  
-x=input('which fibonnaci do you want?')
+x = int(raw_input('which fibonacci do you want? '))
 print fibR(x) # 15 -> 610
