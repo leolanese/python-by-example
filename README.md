@@ -10,6 +10,10 @@
 [Library](https://github.com/leolanese/python-playground/tree/master/learning)<br/>
 [Tips](https://github.com/leolanese/python-playground/tree/master/tips)<br/>
 
+
+### Python Playgorund testings
+
+(https://trinket.io/python)[https://trinket.io/python]
 ---
 
 <h5> { 'Leo Lanese',<br>
