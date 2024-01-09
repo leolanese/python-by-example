@@ -1,3 +1,5 @@
+# pygal: python charting
+
 import pygal
 
 # Our data is a list of series.
