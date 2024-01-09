@@ -1,3 +1,5 @@
+# pygal: python charting
+
 import pygal
 
 line_chart = pygal.Bar()
