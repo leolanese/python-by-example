@@ -1,3 +1,5 @@
+# pygal: python charting
+
 import pygal
 
 radar_chart = pygal.Radar()
