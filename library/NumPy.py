@@ -1,3 +1,5 @@
+# Vectorisation: NumPy
+
 # Finding the Sum of numbers Using Loops: 0.14 Seconds
 import time 
 start = time.time()
