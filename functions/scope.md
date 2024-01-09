@@ -8,6 +8,6 @@
 
 - A global variable exists outside any function. It may be used inside a function.
 
--“It is a bad habit to rely on global variables as your programs get larger and larger” 
+- “It is a bad habit to rely on global variables as your programs get larger and larger” 
 
 - Avoid repeating the names of variables in different scopes. If you have a global variable named foobar, do not name a local variable foobar.
