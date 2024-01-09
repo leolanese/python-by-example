@@ -1,3 +1,5 @@
+# pygal: python charting
+
 import pygal
 
 pie_chart = pygal.Pie()
