@@ -22,6 +22,29 @@ print("Hello, World!")
 exit()
 ```
 
+### Built-in utility 
+
+| Function          | Description                                                                           | Example                                 |
+|-------------------|---------------------------------------------------------------------------------------|-----------------------------------------|
+| `help()`          | Provides interactive help and documentation for Python objects and modules            | `help()` or `help(object)`              |
+| `dir()`           | Returns a list of names in the current local scope or a list of attributes of an object | `dir()` or `dir(object)`                |
+| `type()`          | Returns the type of an object                                                          | `type(42)` -> `<class 'int'>`           |
+| `len()`           | Returns the length of an object (such as a string, list, or tuple)                      | `len('hello')` -> `5`                   |
+| `print()`         | Prints the specified values to the standard output                                      | `print('Hello, World!')`                |
+| `input()`         | Reads a line from the standard input                                                   | `name = input('Enter your name: ')`    |
+| `range()`         | Generates a sequence of numbers within a specified range                               | `range(5)` -> `[0, 1, 2, 3, 4]`         |
+| `open()`          | Opens a file and returns a file object                                                | `file = open('example.txt', 'r')`     |
+| `sum()`           | Returns the sum of elements in an iterable                                            | `sum([1, 2, 3])` -> `6`                  |
+| `sorted()`        | Returns a sorted list from the elements of an iterable                                 | `sorted([3, 1, 4, 1, 5, 9, 2])` -> `[1, 1, 2, 3, 4, 5, 9]` |
+| `max()`           | Returns the largest item in an iterable or the largest of two or more arguments        | `max(3, 7, 1)` -> `7`                    |
+| `min()`           | Returns the smallest item in an iterable or the smallest of two or more arguments      | `min(3, 7, 1)` -> `1`                    |
+| `abs()`           | Returns the absolute value of a number                                                | `abs(-5)` -> `5`                        |
+| `round()`         | Rounds a floating-point number to the nearest integer                                  | `round(3.14159)` -> `3`                 |
+| `input()`         | Reads a line from the standard input                                                   | `name = input('Enter your name: ')`    |
+| `exit()`          | Exits the Python interpreter                                                          | `exit()`                                |
+
+
+
 ### Python Indentation
 
 > In Python, indentation is not just for readability; it is a syntactical element. The level of indentation determines the grouping of statements. Consistent indentation is essential for the code to be valid.
