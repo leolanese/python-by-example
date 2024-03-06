@@ -4,6 +4,24 @@
 
 ##  Refreshing the basics
 
+```js
+// running Python using Command Line
+touch helloworld.py
+print("Hello, World!")
+
+python helloworld.py
+```
+
+```
+// The Python Command Line
+python
+
+print("Hello, World!")
+exit()
+```
+
+
+
 ### TOPICS
 
 [Learning Path](https://github.com/leolanese/python-playground/tree/master/learning)<br/>
