@@ -1,7 +1,8 @@
-# Python scalar & collection Data-Types
+# Python Scalar & Collection Data-Types
 
 > Keep in mind that Python is dynamically typed, meaning you don't need to declare the data type explicitly
 
+## "Scalar" data-types
 
 | Data Type   | Description                                     | Example               |
 |-------------|-------------------------------------------------|-----------------------|
@@ -13,7 +14,7 @@
 | `None`      | Represents the absence of a value (null)        | `None`                |
 
 
-## There are four collection data types in Python :
+## "Collection" data-types
 - List: is a collection which is ordered and changeable(modifiable). Allows duplicate members.
 - Tuple: is a collection which is ordered and unchangeable or unmodifiable(immutable). Allows duplicate members.
 - Set: is a collection which is unordered, un-indexed and unmodifiable, but we can add new items to the set. Duplicate members are not allowed.
