@@ -4,6 +4,8 @@
 
 ##  Refreshing the basics
 
+### Python Command Line
+
 ```js
 // running Python using Command Line
 touch helloworld.py
@@ -18,6 +20,33 @@ python
 
 print("Hello, World!")
 exit()
+```
+
+### Python Indentation
+
+> In Python, indentation is not just for readability; it is a syntactical element. The level of indentation determines the grouping of statements. Consistent indentation is essential for the code to be valid.
+
+```
+if condition:
+    # This block is indented
+    statement1
+    statement2
+else:
+    # Another indented block
+    statement3
+    statement4
+```
+
+```
+# Function to add two numbers
+def example_function():
+    print("This is indented")
+    if True:
+        print("This is indented within the if block")
+    print("This is back to the outer indentation level")
+
+# Call the function
+example_function()
 ```
 
 
