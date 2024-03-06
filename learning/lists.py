@@ -7,29 +7,79 @@
 # 4) Dictionary is a collection which is unordered, changeable and indexed. No duplicate members.
 
 1) List
+```
 # list
 thislist = ["apple", "banana", "cherry"]
 print(thislist[1])
 thislist[1] = "blackcurrant"
 print(thislist[1])
 print(thislist)
+```
 
+```
 # Loop Through a List
 thislist = ["apple", "banana", "cherry"]
 for x in thislist:
   print(x)
-  
+```
+
+```
 # check if item exist
 thislist = ["apple", "banana", "cherry"]
 if "apple" in thislist:
   print("Yes, 'apple' is in the fruits list")
-  
+```
+
+```
 # Remove Item list
 thislist = ["apple", "banana", "cherry"]
 thislist.remove("banana")
 print(thislist)
-  
--=-=-=-=-=-=-=
+```
+
+```
+# modifing a list
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits[0] = 'avocado'
+```
+
+```
+# Checking Items in a List
+fruits = ['banana', 'orange', 'mango', 'lemon']
+does_exist = 'banana' in fruits
+print(does_exist)  # True
+```
+
+```
+# Adding Items to the end to a List
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.append('apple')
+print(fruits)    # ['banana', 'orange', 'mango', 'lemon', 'apple']
+```
+
+```
+# Inserting Items into a List
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.insert(2, 'apple') # insert apple between orange and mango
+print(fruits)           # ['banana', 'orange', 'apple', 'mango', 'lemon']
+```
+
+```
+# Removing Items from a List
+fruits = ['banana', 'orange', 'mango', 'lemon', 'banana']
+fruits.remove('banana')
+print(fruits)  # ['orange', 'mango', 'lemon', 'banana']
+```
+
+```
+# Copying a List
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits_copy = fruits.copy()
+print(fruits_copy)       # ['banana', 'orange', 'mango', 'lemon']
+```
+
+---
+
 2) Tuples
 # You cannot change values in a tuple:
 thistuple = ("apple", "banana", "cherry")
