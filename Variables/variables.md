@@ -8,16 +8,34 @@
 
 ```js
 x = 5  # x is an integer
+
 x = "Hello"  # x is now a string
 
 print(x); # Hello
+
 print(type(x)); # <class 'str'>
 ```
 
 ```
-x, y, z = "Leo", "Tom", "Sam"
+x, y, z = "Leo", "Tom", "Sam";
+
 print(x, y, z); # Leo, Tom, Sam
 ```
+
+```
+# when you want to access a value from a dictionary using its key, you need to use the key as a string inside square brackets.
+people = [{
+   'firstname': 'John',
+   'lastname': 'Doe',
+   'country': 'USA',
+   'city': 'New York',
+   'age': 30,
+   'skills': ['Java', 'C#', 'SQL']
+}]
+
+print(people[0]['firstname'])
+```
+
 
 ---
 
