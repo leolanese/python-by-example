@@ -1,4 +1,4 @@
-# Python Scalar & Collection Data-Types
+# Scalar & Collection Data-Types
 
 > Keep in mind that Python is dynamically typed, meaning you don't need to declare the data type explicitly
 
@@ -13,12 +13,13 @@
 | `bool`      | Boolean (True or False)                         | `True`, `False`        |
 | `None`      | Represents the absence of a value (null)        | `None`                |
 
+---
 
 ## "Collections" data-types (Arrays)
-- List: is a collection which is ordered and changeable(modifiable). Allows duplicate members.
-- Tuple: is a collection which is ordered and unchangeable or unmodifiable(immutable). Allows duplicate members.
-- Set: is a collection which is unordered, un-indexed and unmodifiable, but we can add new items to the set. Duplicate members are not allowed.
-- Dictionary: is a collection which is unordered, changeable(modifiable) and indexed. No duplicate members.
+`List`: Ordered, changeable, allows duplicates.
+`Tuple`: Ordered, unchangeable (immutable), allows duplicates.
+`Set`: Unordered, unindexed, unmodifiable, no duplicates.
+`Dictionary`: Unordered, changeable, indexed, no duplicates.
 
 | Data Type   | Description                                      | Example                                        |
 |-------------|--------------------------------------------------|------------------------------------------------|
