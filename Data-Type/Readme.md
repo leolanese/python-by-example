@@ -17,10 +17,10 @@
 
 ## "Collections" data-types (Arrays)
 ```
-`List`: Ordered, changeable, allows duplicates.
-`Tuple`: Ordered, unchangeable (immutable), allows duplicates.
-`Set`: Unordered, unindexed, unmodifiable, no duplicates.
-`Dictionary`: Unordered, changeable, indexed, no duplicates.
+`List`: Ordered, changeable, allows duplicates (mutable)
+`Tuple`: Ordered, unchangeable (immutable), allows duplicates
+`Set`: Unordered, unindexed, unmodifiable, no duplicates allow
+`Dictionary`: Unordered, changeable, indexed, no duplicates allow
 ```
 
 | Data Structure | Ordered? | Modifiable? | Indexed? | Allows Duplicates? | Example |
@@ -30,9 +30,8 @@
 | Set            | No       | Yes         | No       | No                  | `my_set = {1, 2, 3}` |
 | Dictionary     | No       | Yes         | Yes      | No                  | `my_dict = {'key1': 'value1', 'key2': 'value2'}` |
 
----
 
-## list (mutable)
+## list (Ordered, changeable, allows duplicates)
 
 > lst = list[]
 
@@ -40,12 +39,12 @@ Lists are mutable, meaning you can modify their elements after the list is creat
 You can add, remove, or change elements in a list.
 
 ```
-# Create a List = List (fruits = ['banana', 'orange', 'mango', 'lemon']):
-fruits = ['banana', 'orange', 'mango', 'lemon']
-fruits[0] = 'apple'
+my_list = [3, 1, 2, 3]
+
+print(my_list)  # Output: [3, 1, 2, 3]
 ```
 
-## Tuples (immutable)
+## Tuples (Ordered, unchangeable (immutable), allows duplicates)
 
 > lst = list()
 
@@ -53,13 +52,23 @@ Tuples are immutable, meaning once a tuple is created, you cannot add, remove, o
 You can't change the values of elements or add/remove elements from a tuple.
 
 ```
-# Create a Tuple = tTuple (fruits = ('banana', 'orange', 'mango', 'lemon')):
-fruits = ('banana', 'orange', 'mango', 'lemon')
-# error
-# fruits[0] = 'apple'
+my_tuple = (3, 1, 2, 3)
+
+print(my_tuple)  # Output: (3, 1, 2, 3)
 ```
 
----
+## Set (Unordered, unindexed, unmodifiable, no duplicates allow)
 
+```
+my_set = {3, 1, 2, 3}
 
+print(my_set)  # Output: {1, 2, 3}
+```
 
+## Dictionary (Unordered, changeable, indexed, no duplicates allow)
+
+```
+my_dict = {'apple': 3, 'banana': 2, 'orange': 1, 'apple': 4}
+
+print(my_dict)  # Output: {'apple': 4, 'banana': 2, 'orange': 1}
+```
