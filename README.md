@@ -2,6 +2,8 @@
 
 ![Python](https://upload.wikimedia.org/wikipedia/commons/0/0a/Python.svg)
 
+> After a quick intro, we will jump into python code by example
+
 ##  Refreshing the basics
 
 ### Python Command Line
@@ -71,9 +73,6 @@ def example_function():
 # Call the function
 example_function()
 ```
-
-
-
 ### TOPICS
 
 [Learning Path](https://github.com/leolanese/python-playground/tree/master/learning)<br/>
