@@ -47,7 +47,7 @@ repeated_list = list1 * 3
 print(repeated_list)  # Output: [1, 2, 3, 1, 2, 3, 1, 2, 3]
 ```
 
-## Append and remove elements: append, remove, sort, reverse
+## Handle elements: append, remove, sort, reverse
 ```
 fruits = ['apple', 'banana', 'orange']
 fruits.append('grape')
@@ -74,12 +74,60 @@ fruits.reverse()
 print(fruits)
 ```
 
+
+## Extend
+```
+groceries = ["bread", "milk", "cheese"]
+snacks = ["chips", "candy", "popcorn"]
+
+groceries.extend(snacks)
+print(groceries)  # Output: ['bread', 'milk', 'cheese', 'chips', 'candy', 'popcorn']
+```
+
+## insert
+```
+groceries.insert(0, "bread")
+print(groceries)  # Output: ['bread', 'milk', 'cheese', 'chips', 'candy', 'popcorn']
+```
+
+## pop
+```
+snack = groceries.pop()
+print(groceries)  # Output: ['bread', 'milk', 'chips', 'candy']
+print(snack)  # Output: 'popcorn'
+```
+
+## index
+```
+snacks = ["chips", "candy"]
+chip_index = snacks.index("chips")
+print(f"Chips are at index {chip_index}")  # Output: Chips are at index 0
+```
+
+
+## count
+```
+snacks = ["chips", "candy"]
+candy_count = snacks.count("candy")
+print(f"There are {candy_count} candy in the list")  # Output: There are 1 candy in the list
+```
+
+
+## sort
+```
+snacks = ["chips", "candy"]
+snacks.sort()
+print(snacks)  # Output: ['candy', 'chips']
+```
+
+
 ## Extract a sublist using slicing
 ```
 numbers = [1, 2, 3, 4, 5]
 sublist = numbers[1:4]
 print(sublist)  # Output: [2, 3, 4]
 ```
+
 
 ## List Comprehensions (Concise List Creation)
 ```
