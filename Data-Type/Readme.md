@@ -16,17 +16,19 @@
 ---
 
 ## "Collections" data-types (Arrays)
+```
 `List`: Ordered, changeable, allows duplicates.
 `Tuple`: Ordered, unchangeable (immutable), allows duplicates.
 `Set`: Unordered, unindexed, unmodifiable, no duplicates.
 `Dictionary`: Unordered, changeable, indexed, no duplicates.
+```
 
-| Data Type   | Description                                      | Example                                        |
-|-------------|--------------------------------------------------|------------------------------------------------|
-| `list`      | Ordered, 'mutable' sequence of elements            | `[1, 2, 3]`, `['a', 'b']`                      |
-| `tuple`     | Ordered, 'immutable' sequence of elements          | `(1, 2, 3)`, `('a', 'b')`                      |
-| `set`       | Unordered collection of unique elements          | `{1, 2, 3}`, `{'a', 'b'}`                      |
-| `dict`      | Key-value pairs mapping                          | `{'name': 'John', 'age': 25}`                  |
+| Data Structure | Ordered? | Modifiable? | Indexed? | Allows Duplicates? | Example |
+|----------------|----------|-------------|----------|---------------------|---------|
+| List           | Yes      | Yes         | Yes      | Yes                 | `my_list = [1, 2, 3, 1]` |
+| Tuple          | Yes      | No          | Yes      | Yes                 | `my_tuple = (1, 2, 3, 1)` |
+| Set            | No       | Yes         | No       | No                  | `my_set = {1, 2, 3}` |
+| Dictionary     | No       | Yes         | Yes      | No                  | `my_dict = {'key1': 'value1', 'key2': 'value2'}` |
 
 ---
 
