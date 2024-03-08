@@ -1,5 +1,20 @@
 # Lists
 
+| Method                  | Description                                    |
+|-------------------------|------------------------------------------------|
+| `append(x)`             | Adds element `x` to the end of the list        |
+| `extend(iterable)`      | Appends elements of `iterable` to the list     |
+| `insert(i, x)`          | Inserts element `x` at index `i` in the list   |
+| `remove(x)`             | Removes the first occurrence of element `x`    |
+| `pop([i])`              | Removes and returns the element at index `i`   |
+| `clear()`               | Removes all elements from the list             |
+| `index(x[, start[, end]])` | Returns the index of the first occurrence of element `x` |
+| `count(x)`              | Returns the number of occurrences of element `x` |
+| `sort(key=None, reverse=False)` | Sorts the list in ascending or descending order |
+| `reverse()`             | Reverses the order of the elements in the list |
+| `copy()`                | Returns a shallow copy of the list             |
+
+
 ## Mixed Data Type List within the same structure
 ```
 mixed_list = ["apple", 3.14, True, [10, 20, 30]]
